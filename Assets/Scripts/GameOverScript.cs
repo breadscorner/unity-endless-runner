@@ -7,15 +7,15 @@ public class GameOverScript : MonoBehaviour
     [SerializeField] public TextMeshProUGUI scoreTextMesh;
     void Start()
     {
-        Setup();  // Ensure score display is set up when the scene starts
+        Setup();
     }
 
     public void Setup()
     {
         gameObject.SetActive(true);
         Time.timeScale = 0;
-        string finalScore = PlayerPrefs.GetString("Score", "0");  // Retrieve the saved score
-        scoreTextMesh.text = "Score: " + finalScore;  // Display the score
+        string finalScore = PlayerPrefs.GetString("Score", "0"); 
+        scoreTextMesh.text = "Score: " + finalScore;
     }
 
     public void RestartButton()
