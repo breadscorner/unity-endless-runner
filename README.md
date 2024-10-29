@@ -4,7 +4,7 @@ Welcome to the **2D Endless Runner Game**, a Unity-based endless runner game fea
 
 ## 🎥 Demo
 
-![Video Demo](Demos/er-1.mov)
+Coming Soon
 
 Check out this video demo of the gameplay, including the start, main game, and end screens. (The video will be playable directly once it’s available on GitHub.)
 
