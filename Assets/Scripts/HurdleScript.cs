@@ -16,7 +16,8 @@ public class HurdleScript : MonoBehaviour
     float score;
 
     // Public methods
-    [SerializeField] public TextMeshProUGUI ScoreText;
+    [SerializeField] public TextMeshProUGUI scoreTextMesh;
+    [SerializeField] public TextMeshProUGUI highScoreTM;
     public HurdleGenerator hurdleGenerator;
     private RunnerScript runnerScript;
 
@@ -43,16 +44,44 @@ public class HurdleScript : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void HighScore()
+    {
+        gameObject.SetActive(true);
+        Time.timeScale = 0;
+
+        int finalScore = PlayerPrefs.GetInt("Score", 0);
+        scoreTextMesh.text = "Score: " + finalScore;
+
+        int highScore = PlayerPrefs.GetInt("HighScore", 0);
+
+        if (finalScore > highScore)
+        {
+            highScore = finalScore;
+            PlayerPrefs.SetInt("HighScore", highScore);
+            PlayerPrefs.Save();
+        }
+
+        highScoreTM.text = "High Score: " + highScore;
+    }
+        private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Time.timeScale = 0;  
-            float finalScore = runnerScript.GetScore();  
-            PlayerPrefs.SetString("Score", Mathf.FloorToInt(finalScore).ToString()); 
-            PlayerPrefs.Save(); 
-            SceneManager.LoadScene("Game Over Scene");  
-            Debug.Log("Final Score Saved: " + finalScore);
+            Time.timeScale = 0;
+            float finalScore = runnerScript.GetScore();
+            int intFinalScore = Mathf.FloorToInt(finalScore);
+            PlayerPrefs.SetInt("Score", intFinalScore);
+
+            // Check and set High Score
+            int highScore = PlayerPrefs.GetInt("HighScore", 0);
+            if (intFinalScore > highScore)
+            {
+                PlayerPrefs.SetInt("HighScore", intFinalScore);
+            }
+
+            PlayerPrefs.Save();
+            SceneManager.LoadScene("Game Over Scene");
+            Debug.Log("Final Score Saved: " + intFinalScore);
         }
     }
 }

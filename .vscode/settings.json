@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "2D Endless Runner.sln"
+    "dotnet.defaultSolution": "unity-endless-runner.sln"
 }

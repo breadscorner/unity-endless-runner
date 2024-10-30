@@ -31,11 +31,11 @@ public class RunnerScript : MonoBehaviour
         if (isGrounded && isAlive)
         {
             // RB.AddForce(Vector2.up * JumpForce);
-        float limitedJumpForce = Mathf.Clamp(JumpForce, 5f, 15f); // Adjust values as needed
-        RB.linearVelocity = new Vector2(RB.linearVelocity.x, limitedJumpForce);
-        
-        anim.SetTrigger("isJumping");
-        isGrounded = false;
+            float limitedJumpForce = Mathf.Clamp(JumpForce, 5f, 15f); // Adjust values as needed
+            RB.linearVelocity = new Vector2(RB.linearVelocity.x, limitedJumpForce);
+
+            anim.SetTrigger("isJumping");
+            isGrounded = false;
         }
     }
 

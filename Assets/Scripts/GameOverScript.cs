@@ -5,17 +5,22 @@ using UnityEngine.SceneManagement;
 public class GameOverScript : MonoBehaviour
 {
     [SerializeField] public TextMeshProUGUI scoreTextMesh;
+    [SerializeField] public TextMeshProUGUI highScoreTextMesh;
     void Start()
     {
         Setup();
     }
 
-    public void Setup()
+        public void Setup()
     {
         gameObject.SetActive(true);
         Time.timeScale = 0;
-        string finalScore = PlayerPrefs.GetString("Score", "0"); 
+
+        int finalScore = PlayerPrefs.GetInt("Score", 0);
+        int highScore = PlayerPrefs.GetInt("HighScore", 0);
+
         scoreTextMesh.text = "Score: " + finalScore;
+        highScoreTextMesh.text = "High Score: " + highScore;
     }
 
     public void RestartButton()
