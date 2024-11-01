@@ -2,10 +2,15 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+/* 
+Add name input for high score
+Use PlayerPrefs for storing the name along with the score
+*/
+
 public class GameOverScript : MonoBehaviour
 {
-    [SerializeField] public TextMeshProUGUI scoreTextMesh;
-    [SerializeField] public TextMeshProUGUI highScoreTextMesh;
+    [SerializeField] TextMeshProUGUI scoreTextMesh;
+    [SerializeField] TextMeshProUGUI highScoreTextMesh;
     void Start()
     {
         Setup();

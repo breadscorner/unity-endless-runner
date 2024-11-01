@@ -2,22 +2,15 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-// [SerializeField] private HurdleGenerator hurdleGenerator = null;
-
-// private void Awake()
-// {
-//     //anim = GetComponent<Animator>();
-//     //anim = runnerObject.GetComponent<RunnerScript>();
-// }
 public class HurdleScript : MonoBehaviour
 {
-    // Private methods
+    // Private variables
     private Animator anim;
     float score;
 
-    // Public methods
-    [SerializeField] public TextMeshProUGUI scoreTextMesh;
-    [SerializeField] public TextMeshProUGUI highScoreTM;
+    // Public variables
+    [SerializeField] TextMeshProUGUI scoreTextMesh;
+    [SerializeField] TextMeshProUGUI highScoreTM;
     public HurdleGenerator hurdleGenerator;
     private RunnerScript runnerScript;
 
