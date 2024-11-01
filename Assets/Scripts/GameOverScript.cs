@@ -34,7 +34,7 @@ public class GameOverScript : MonoBehaviour
         SceneManager.LoadScene("City Hurdling Scene");
     }
 
-    public void ExitButton()
+    public void MainMenuButton()
     {
         Time.timeScale = 1;
         SceneManager.LoadScene("Game Start Scene");
