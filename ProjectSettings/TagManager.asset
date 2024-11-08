@@ -4,6 +4,7 @@
 TagManager:
   serializedVersion: 3
   tags:
+  - Settings
   - Ground
   - NextHurdle
   - Hurdle
@@ -44,9 +45,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: ui_toplayer
-    uniqueID: 1953683819
-    locked: 0
   - name: Background
     uniqueID: 137455685
     locked: 0
@@ -61,6 +59,12 @@ TagManager:
     locked: 0
   - name: GameStartScreen
     uniqueID: 276046581
+    locked: 0
+  - name: settings_menu
+    uniqueID: 4082491103
+    locked: 0
+  - name: ui_toplayer
+    uniqueID: 1953683819
     locked: 0
   m_RenderingLayers:
   - Default
