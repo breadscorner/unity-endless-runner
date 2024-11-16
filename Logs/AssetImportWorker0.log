@@ -3292,3 +3292,59 @@ Memory consumption went from 134.4 MB to 133.4 MB.
 Total: 4.699250 ms (FindLiveObjects: 0.242709 ms CreateObjectMapping: 0.104458 ms MarkObjects: 3.785041 ms  DeleteObjects: 0.566625 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 99829.516379 seconds.
+  path: Assets/Scripts/RunnerScript.cs
+  artifactKey: Guid(71c42c6a7acbc4787b1104b497272983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RunnerScript.cs using Guid(71c42c6a7acbc4787b1104b497272983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46223ebc98471fd2b4a4382b0f9237eb') in 0.00082725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.411311 seconds.
+  path: Assets/Scripts/LeaderboardScript.cs
+  artifactKey: Guid(7511002374800482aa73b87eea147c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LeaderboardScript.cs using Guid(7511002374800482aa73b87eea147c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b5b07491340bd3e8d7309fc9f2d4083') in 0.000229166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.426913 seconds.
+  path: Assets/Scripts/HurdleScript.cs
+  artifactKey: Guid(63ae55bba743c467980bbaffd260277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HurdleScript.cs using Guid(63ae55bba743c467980bbaffd260277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18d74fb20f2cc784b5c055c620281a68') in 0.000232459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353860 seconds.
+  path: Assets/Scripts/HurdleGenerator.cs
+  artifactKey: Guid(8c6ae1738b9d746f498d83a73b71ebe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HurdleGenerator.cs using Guid(8c6ae1738b9d746f498d83a73b71ebe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fae65760302dc96e31dc14140212c245') in 0.000265875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.391018 seconds.
+  path: Assets/Scripts/HighScoreManager.cs
+  artifactKey: Guid(6ee6983e830104e7fa18bea5c92528b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighScoreManager.cs using Guid(6ee6983e830104e7fa18bea5c92528b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f13d4421b843a74c638b0a59cfa50ac6') in 0.000407166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.386072 seconds.
+  path: Assets/Scripts/GameStartScript.cs
+  artifactKey: Guid(dc09d69aa26334fac8fdc9ac622b2e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameStartScript.cs using Guid(dc09d69aa26334fac8fdc9ac622b2e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f585b102534952d2f2c03e5f89314de') in 0.00022175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333855 seconds.
+  path: Assets/Scripts/GameOverScript.cs
+  artifactKey: Guid(728eedcc6eac04754a2fbceacfbea988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameOverScript.cs using Guid(728eedcc6eac04754a2fbceacfbea988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46565c4ddc03b42ec3ae11606496c247') in 0.000223792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
