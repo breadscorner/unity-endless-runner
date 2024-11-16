@@ -11,13 +11,27 @@ public class UIManagerScript : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public void ToggleSettingsMenu()
+    public void OpenSettingsMenu()
     {
-        bool isActive = !settingsMenu.activeSelf;
-        overlayPanel.SetActive(isActive);
-        settingsMenu.SetActive(isActive);
-        gameStartScreen.SetActive(!isActive);
+        // Explicitly activate the settings menu and overlay
+        overlayPanel.SetActive(true);
+        settingsMenu.SetActive(true);
 
-        Debug.Log("Settings Menu is now " + (isActive ? "active" : "inactive"));
+        // Deactivate the game start screen
+        gameStartScreen.SetActive(false);
+
+        Debug.Log("Settings Menu is now active");
+    }
+
+    public void CloseSettingsMenu()
+    {
+        // Explicitly deactivate the settings menu and overlay
+        overlayPanel.SetActive(false);
+        settingsMenu.SetActive(false);
+
+        // Activate the game start screen
+        gameStartScreen.SetActive(true);
+
+        Debug.Log("Settings Menu is now inactive");
     }
 }

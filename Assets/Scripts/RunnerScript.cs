@@ -62,11 +62,6 @@ public class RunnerScript : MonoBehaviour
             anim.ResetTrigger("isJumping");
             anim.SetTrigger("isIdle");
         }
-                    // Game over condition: Save the final score only once
-            if (!PlayerPrefs.HasKey("Score"))
-            {
-                PlayerPrefs.SetInt("Score", Mathf.FloorToInt(score));
-            }
         // else if (collision.gameObject.CompareTag("NextHurdle"))
         // {
         //     isAlive = false;
