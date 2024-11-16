@@ -1,23 +1,15 @@
 using UnityEngine;
-using TMPro;
 using UnityEngine.SceneManagement;
 
 public class HurdleScript : MonoBehaviour
 {
-    // Private variables
-    private Animator anim;
-    float score;
-
-    // Public variables
-    [SerializeField] TextMeshProUGUI scoreTextMesh;
-    [SerializeField] TextMeshProUGUI highScoreTM;
-    public HurdleGenerator hurdleGenerator;
+    [SerializeField] public HurdleGenerator hurdleGenerator;
     private RunnerScript runnerScript;
 
     void Start()
     {
         GameObject player = GameObject.FindWithTag("Player");
-        runnerScript = player.GetComponent<RunnerScript>();  // Access RunnerScript on the player
+        runnerScript = player.GetComponent<RunnerScript>();
     }
 
     void Update()
@@ -33,48 +25,24 @@ public class HurdleScript : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("FinishHurdle"))
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 
-    public void HighScore()
-    {
-        gameObject.SetActive(true);
-        Time.timeScale = 0;
-
-        int finalScore = PlayerPrefs.GetInt("Score", 0);
-        scoreTextMesh.text = "Score: " + finalScore;
-
-        int highScore = PlayerPrefs.GetInt("HighScore", 0);
-
-        if (finalScore > highScore)
-        {
-            highScore = finalScore;
-            PlayerPrefs.SetInt("HighScore", highScore);
-            PlayerPrefs.Save();
-        }
-
-        highScoreTM.text = "High Score: " + highScore;
-    }
-        private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             Time.timeScale = 0;
             float finalScore = runnerScript.GetScore();
             int intFinalScore = Mathf.FloorToInt(finalScore);
+
+            // Save the current score
             PlayerPrefs.SetInt("Score", intFinalScore);
-
-            // Check and set High Score
-            int highScore = PlayerPrefs.GetInt("HighScore", 0);
-            if (intFinalScore > highScore)
-            {
-                PlayerPrefs.SetInt("HighScore", intFinalScore);
-            }
-
             PlayerPrefs.Save();
+
+            // Load the Game Over Scene
             SceneManager.LoadScene("Game Over Scene");
-            Debug.Log("Final Score Saved: " + intFinalScore);
         }
     }
 }

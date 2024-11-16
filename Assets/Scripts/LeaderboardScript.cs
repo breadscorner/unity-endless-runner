@@ -1,16 +1,23 @@
 using UnityEngine;
+using TMPro;
 
 public class LeaderboardScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] TextMeshProUGUI firstHighScoreTextMesh;
+
     void Start()
     {
-        
+        LeaderboardSetup();
+    }
+
+    public void LeaderboardSetup()
+    {
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

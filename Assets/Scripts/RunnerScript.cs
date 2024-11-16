@@ -4,11 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class RunnerScript : MonoBehaviour
 {
+    // Private variables
     [SerializeField] private bool isGrounded = false;
     [SerializeField] private bool isAlive = true;
     private Rigidbody2D RB;
     private Animator anim;
 
+    // Public variables
     [SerializeField] public TextMeshProUGUI ScoreText;
     public float JumpForce;
     float score;
@@ -60,6 +62,11 @@ public class RunnerScript : MonoBehaviour
             anim.ResetTrigger("isJumping");
             anim.SetTrigger("isIdle");
         }
+                    // Game over condition: Save the final score only once
+            if (!PlayerPrefs.HasKey("Score"))
+            {
+                PlayerPrefs.SetInt("Score", Mathf.FloorToInt(score));
+            }
         // else if (collision.gameObject.CompareTag("NextHurdle"))
         // {
         //     isAlive = false;

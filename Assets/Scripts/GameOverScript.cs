@@ -1,42 +1,59 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
-
-/* 
-Add name input for high score
-Use PlayerPrefs for storing the name along with the score
-*/
 
 public class GameOverScript : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI scoreTextMesh;
-    [SerializeField] TextMeshProUGUI highScoreTextMesh;
+    [SerializeField] private TextMeshProUGUI scoreTextMesh;
+    [SerializeField] private TextMeshProUGUI highScoreTextMesh;
+    [SerializeField] private GameObject highScorePromptPanel;
+    [SerializeField] private TMP_InputField nameInputField;
+
+    private int finalScore;
+
     void Start()
     {
         Setup();
     }
 
-        public void Setup()
+    public void Setup()
     {
         gameObject.SetActive(true);
         Time.timeScale = 0;
 
-        int finalScore = PlayerPrefs.GetInt("Score", 0);
-        int highScore = PlayerPrefs.GetInt("HighScore", 0);
+
+        finalScore = PlayerPrefs.GetInt("Score", 0);
+        int highScore = HighScoreManager.Instance.GetHighScore();
+        string highScoreName = HighScoreManager.Instance.GetHighScoreName();
+
 
         scoreTextMesh.text = "Score: " + finalScore;
-        highScoreTextMesh.text = "High Score: " + highScore;
+        highScoreTextMesh.text = "High Score: " + highScore + " " + highScoreName;
+
+        if (finalScore > highScore)
+        {
+            highScorePromptPanel.SetActive(true);
+        }
+        else
+        {
+            highScorePromptPanel.SetActive(false);
+        }
     }
 
-    public void RestartButton()
+    public void OnSubmitHighScore()
     {
-        Time.timeScale = 1;
-        SceneManager.LoadScene("City Hurdling Scene");
-    }
+        // Delegate high score saving to the HighScoreManager
+        string playerName = nameInputField.text;
+        if (string.IsNullOrEmpty(playerName))
+        {
+            playerName = "Player"; 
+        }
 
-    public void MainMenuButton()
-    {
-        Time.timeScale = 1;
-        SceneManager.LoadScene("Game Start Scene");
+        HighScoreManager.Instance.SubmitHighScore(finalScore, playerName);
+
+        // Update the high score display
+        int highScore = HighScoreManager.Instance.GetHighScore();
+        highScoreTextMesh.text = "High Score: " + highScore + " by " + HighScoreManager.Instance.GetHighScoreName();
+
+        highScorePromptPanel.SetActive(false);
     }
 }
