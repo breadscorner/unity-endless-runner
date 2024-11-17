@@ -1,0 +1,314 @@
+Unity Editor version:    6000.0.21f1 (e2bacb8dee3a)
+Branch:                  trunk
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.1 (Build 24B83)
+Darwin version:          24.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        36864 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/Users/brettgill/Documents/unity-projects/unity-endless-runner
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+51406
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: /Users/brettgill/Documents/unity-projects/unity-endless-runner
+/Users/brettgill/Documents/unity-projects/unity-endless-runner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8346597440]  Target information:
+
+Player connection [8346597440]  * "[IP] 192.168.1.85 [Port] 0 [Flags] 2 [Guid] 4140415681 [EditorId] 4140415681 [Version] 1048832 [Id] OSXEditor(0,The-Lab.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8346597440] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8346597440] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.21f1 (e2bacb8dee3a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/brettgill/Documents/unity-projects/unity-endless-runner/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.21f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000617 seconds.
+- Loaded All Assemblies, in  0.165 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.250 seconds
+Domain Reload Profiling: 415ms
+	BeginReloadAssembly (35ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (35ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (72ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (250ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (228ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a segv while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x1493419b4 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_dump_native_crash_info
+	0x149303c34 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_handle_native_crash
+	0x14928c478 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_sigsegv_signal_handler_debug
+	0x18c710184 - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x1037389e4 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN16AttributeScannerC2E17ScriptingClassPtrRK21AttributeScannerQuery10MemLabelId
+	0x1037fc5ac - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN22SerializableManagedRef28AssertKlassMeetsRequirementsEv
+	0x1036cfcac - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN23ManagedMonoBehaviourRef14SetScriptCacheERNSt3__110shared_ptrI15MonoScriptCacheEE
+	0x1037fd840 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN22SerializableManagedRef19SetupScriptingCacheEP6Object17ScriptingClassPtrP10MonoScript
+	0x1037fdbf4 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN22SerializableManagedRef19RebuildMonoInstanceEP6Object17ScriptingClassPtr18ScriptingObjectPtrP10MonoScript
+	0x103814b88 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager13ProduceObjectER14SerializedFile26SerializedObjectIdentifieri18ObjectCreationModeNS_9LockFlagsE
+	0x1038146f0 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager32CreateThreadActivationQueueEntryER14SerializedFile26SerializedObjectIdentifieribNS_9LockFlagsE
+	0x103814f7c - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager29ReadAndActivateObjectThreadedEiRK26SerializedObjectIdentifierP14SerializedFilebbNS_9LockFlagsE
+	0x103814248 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager18ReadObjectThreadedEiNS_9LockFlagsE
+	0x103811e24 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager10ReadObjectEi17AwakeFromLoadMode
+	0x102bece0c - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZNK4PPtrI13MonoBehaviourEcvPS0_Ev
+	0x102d96f20 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _Z52EditorUserBuildSettings_CUSTOM_GetActiveBuildProfilev
+	0x14e144388 - Unknown
+	0x14e144080 - Unknown
+	0x14e143fd0 - Unknown
+	0x14e143ce0 - Unknown
+	0x14e143ed0 - Unknown
+	0x14928f74c - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_jit_runtime_invoke
+	0x149414d00 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : do_runtime_invoke
+	0x149414c40 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_runtime_invoke
+	0x10375ef58 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _Z23scripting_method_invoke18ScriptingMethodPtr18ScriptingObjectPtrR18ScriptingArgumentsP21ScriptingExceptionPtrb
+	0x103735bcc - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN19ScriptingInvocation6InvokeEP21ScriptingExceptionPtrb
+	0x103735ca0 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN19ScriptingInvocation6InvokeI17ScriptingArrayPtrEET_P21ScriptingExceptionPtrb
+	0x10388e858 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN9Scripting11UnityEditor5Build17BuildDefinesProxy28GetBuildProfileScriptDefinesEP21ScriptingExceptionPtr
+	0x104687dd8 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _Z48invokeEditorBuildProfileScriptCompilationDefines19BuildTargetPlatformiRN4core6vectorINS0_12basic_stringIcNS0_20StringStorageDefaultIcEEEENS0_9allocatorIS5_Lm0EEEEE
+	0x1046878bc - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _Z27GetScriptCompilationDefines30EditorScriptCompilationOptions19BuildTargetPlatformi18CompatibilityLevelRKN4core6vectorINS2_12basic_stringIcNS2_20StringStorageDefaultIcEEEENS2_9allocatorIS7_Lm0EEEEERSA_
+	0x104687d2c - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _Z27GetScriptCompilationDefines30EditorScriptCompilationOptions19BuildTargetPlatformiRKN4core6vectorINS1_12basic_stringIcNS1_20StringStorageDefaultIcEEEENS1_9allocatorIS6_Lm0EEEEERS9_
+	0x1043856ac - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN23EditorUserBuildSettings55GetActiveScriptCompilationDefinesFromCompilationOptionsE30EditorScriptCompilationOptionsRKN4core6vectorINS1_12basic_stringIcNS1_20StringStorageDefaultIcEEEENS1_9allocatorIS6_Lm0EEEEERS9_
+	0x104a14a4c - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZL18IsPluginCompatibleRN4core12basic_stringIcNS_20StringStorageDefaultIcEEEE19BuildTargetPlatform30EditorScriptCompilationOptionsRKNS_6vectorIS3_NS_9allocatorIS3_Lm0EEEEER17IgnoredAssembliesP14PluginImporter
+	0x104a1422c - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _Z20IsAssemblyCompatibleRK18TargetAssemblyInfoRN4core12basic_stringIcNS2_20StringStorageDefaultIcEEEE19BuildTargetPlatformRKNS2_6vectorIS6_NS2_9allocatorIS6_Lm0EEEEE30EditorScriptCompilationOptionsR17IgnoredAssemblies
+	0x104a15850 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _Z40FilterIncompatibleAndDuplicateAssembliesRKN4core6vectorI18TargetAssemblyInfoNS_9allocatorIS1_Lm0EEEEE19BuildTargetPlatformRKNS0_INS_12basic_stringIcNS_20StringStorageDefaultIcEEEENS2_ISB_Lm0EEEEE30EditorScriptCompilationOptionsR17IgnoredAssemblies
+	0x104a16050 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _Z26CompatibleTargetAssemblies30EditorScriptCompilationOptionsRKN4core6vectorI18TargetAssemblyInfoNS0_9allocatorIS2_Lm0EEEEE
+	0x104a26da0 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _Z35UpdateTargetAssembliesInMonoManagerv
+	0x102be21a4 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN13CallbackArray6InvokeEv
+	0x103703618 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN22ProfilerCallbackInvokeI13CallbackArrayXadL_ZN15GlobalCallbacks30initialDomainReloadingCompleteEEEE6InvokeEPKc
+	0x103702a24 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN11MonoManager14ReloadAssemblyE18AssemblyLoadReason
+	0x104a2a244 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZL27LoadDomainAndUserAssemblies18AssemblyLoadReason
+	0x104c3cb28 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _ZN23AssetImportWorkerClient21ReloadScriptingDomainEv
+	0x104c57a78 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : ___ZZN23AssetImportWorkerClient13HandleMessageERK17InitializeMessageENK4$_11clEv_block_invoke
+	0x18c528658 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
+	0x18c537db0 - /usr/lib/system/libdispatch.dylib : _dispatch_async_and_wait_invoke
+	0x18c528658 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
+	0x18c536f68 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_drain
+	0x18c536b84 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_callback_4CF
+	0x18c800e60 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+	0x18c7c0a4c - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRunLoopRun
+	0x18c7bfbc4 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : CFRunLoopRunSpecific
+	0x197c2ff64 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : RunCurrentEventLoopInMode
+	0x197c35d54 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : ReceiveNextEventCommon
+	0x197c35eb8 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : _BlockUntilNextEventMatchingListInModeWithFilter
+	0x1902eba08 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSNextEvent
+	0x190c2be0c - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+	0x1902deae0 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication run]
+	0x1902b5364 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : NSApplicationMain
+	0x10580d888 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : _Z10EditorMainiPPKc
+	0x10580dbe4 - /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity : main
+	0x18c358274 - /usr/lib/dyld : start
+
+=================================================================
+	Telemetry Dumper:
+=================================================================
+Pkilling 0x6400323584x from 0x8346597440x
+Pkilling 0x6400897024x from 0x8346597440x
+Pkilling 0x6420410368x from 0x8346597440x
+Pkilling 0x6418264064x from 0x8346597440x
+Entering thread summarizer pause from 0x8346597440x
+Finished thread summarizer pause from 0x8346597440x.
+Failed to create breadcrumb file (null)/crash_hash_0x76e3adcd6
+debugger-agent: Unable to listen on 40
+
+Waiting for dumping threads to resume
+
+=================================================================
+	External Debugger Dump:
+=================================================================
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x1493e0614):0x1493e0604  69 00 00 54 00 00 80 52 c0 03 5f d6 08 50 21 8b  i..T...R.._..P!.
+0x1493e0614  08 f9 40 b9 00 5d 00 12 c0 03 5f d6 08 08 40 b9  ..@..]...._...@.
+0x1493e0624  00 5d 00 12 c0 03 5f d6 00 60 42 f9 c0 03 5f d6  .]...._..`B..._.
+0x1493e0634  08 38 40 79 00 01 00 12 c0 03 5f d6 08 30 40 f9  .8@y......_..0@.
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at UnityEditor.EditorUserBuildSettings:GetActiveBuildProfile_Injected <0x00007>
+	  at UnityEditor.EditorUserBuildSettings:GetActiveBuildProfile <0x00017>
+	  at UnityEditor.EditorUserBuildSettings:get_activeBuildProfile <0x0000f>
+	  at UnityEditor.Build.BuildDefines:GetBuildProfileScriptDefines <0x0000f>
+	  at <Module>:runtime_invoke_object <0x00067>
+=================================================================
+Obtained 57 stack frames.
+#0  0x000001493e0614 in mono_image_get_table_rows
+#1  0x000001037fc5ac in SerializableManagedRef::AssertKlassMeetsRequirements()
+#2  0x000001036cfcac in ManagedMonoBehaviourRef::SetScriptCache(std::__1::shared_ptr<MonoScriptCache>&)
+#3  0x000001037fd840 in SerializableManagedRef::SetupScriptingCache(Object*, ScriptingClassPtr, MonoScript*)
+#4  0x000001037fdbf4 in SerializableManagedRef::RebuildMonoInstance(Object*, ScriptingClassPtr, ScriptingObjectPtr, MonoScript*)
+#5  0x00000103814b88 in PersistentManager::ProduceObject(SerializedFile&, SerializedObjectIdentifier, int, ObjectCreationMode, PersistentManager::LockFlags)
+#6  0x000001038146f0 in PersistentManager::CreateThreadActivationQueueEntry(SerializedFile&, SerializedObjectIdentifier, int, bool, PersistentManager::LockFlags)
+#7  0x00000103814f7c in PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+#8  0x00000103814248 in PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+#9  0x00000103811e24 in PersistentManager::ReadObject(int, AwakeFromLoadMode)
+#10 0x00000102bece0c in PPtr<MonoBehaviour>::operator MonoBehaviour*() const
+#11 0x00000102d96f20 in EditorUserBuildSettings_CUSTOM_GetActiveBuildProfile()
+#12 0x0000014e144388 in  (wrapper managed-to-native) UnityEditor.EditorUserBuildSettings:GetActiveBuildProfile_Injected () [{0x13ffa6390} + 0x58]  (0x14e144330 0x14e1443ec) [0x12bf8ea80 - Unity Child Domain]
+#13 0x0000014e144080 in  UnityEditor.EditorUserBuildSettings:GetActiveBuildProfile () [{0x1392b7ed8} + 0x18]  (0x14e144068 0x14e1441b0) [0x12bf8ea80 - Unity Child Domain]
+#14 0x0000014e143fd0 in  UnityEditor.EditorUserBuildSettings:get_activeBuildProfile () [{0x1392b7e88} + 0x10] [/Users/bokken/build/output/unity/unity/Editor/Mono/EditorUserBuildSettings.bindings.cs :: 1154u] (0x14e143fc0 0x14e144014) [0x12bf8ea80 - Unity Child Domain]
+#15 0x0000014e143ce0 in  UnityEditor.Build.BuildDefines:GetBuildProfileScriptDefines () [{0x1392d2450} + 0x10] [/Users/bokken/build/output/unity/unity/Modules/BuildPipeline/Editor/Managed/BuildDefines.cs :: 31u] (0x14e143cd0 0x14e143d28) [0x12bf8ea80 - Unity Child Domain]
+#16 0x0000014e143ed0 in  (wrapper runtime-invoke) <Module>:runtime_invoke_object (object,intptr,intptr,intptr) [{0x13ffa66a0} + 0x68]  (0x14e143e68 0x14e143f6c) [0x12bf8ea80 - Unity Child Domain]
+#17 0x0000014928f74c in mono_jit_runtime_invoke
+#18 0x00000149414d00 in do_runtime_invoke
+#19 0x00000149414c40 in mono_runtime_invoke
+#20 0x0000010375ef58 in scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+#21 0x00000103735bcc in ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+#22 0x00000103735ca0 in ScriptingArrayPtr ScriptingInvocation::Invoke<ScriptingArrayPtr>(ScriptingExceptionPtr*, bool)
+#23 0x0000010388e858 in Scripting::UnityEditor::Build::BuildDefinesProxy::GetBuildProfileScriptDefines(ScriptingExceptionPtr*)
+#24 0x00000104687dd8 in invokeEditorBuildProfileScriptCompilationDefines(BuildTargetPlatform, int, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
+#25 0x000001046878bc in GetScriptCompilationDefines(EditorScriptCompilationOptions, BuildTargetPlatform, int, CompatibilityLevel, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
+#26 0x00000104687d2c in GetScriptCompilationDefines(EditorScriptCompilationOptions, BuildTargetPlatform, int, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
+#27 0x000001043856ac in EditorUserBuildSettings::GetActiveScriptCompilationDefinesFromCompilationOptions(EditorScriptCompilationOptions, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
+#28 0x00000104a14a4c in IsPluginCompatible(core::basic_string<char, core::StringStorageDefault<char>>&, BuildTargetPlatform, EditorScriptCompilationOptions, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, IgnoredAssemblies&, PluginImporter*)
+#29 0x00000104a1422c in IsAssemblyCompatible(TargetAssemblyInfo const&, core::basic_string<char, core::StringStorageDefault<char>>&, BuildTargetPlatform, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, EditorScriptCompilationOptions, IgnoredAssemblies&)
+#30 0x00000104a15850 in FilterIncompatibleAndDuplicateAssemblies(core::vector<TargetAssemblyInfo, core::allocator<TargetAssemblyInfo, 0ul>> const&, BuildTargetPlatform, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, EditorScriptCompilationOptions, IgnoredAssemblies&)
+#31 0x00000104a16050 in CompatibleTargetAssemblies(EditorScriptCompilationOptions, core::vector<TargetAssemblyInfo, core::allocator<TargetAssemblyInfo, 0ul>> const&)
+#32 0x00000104a26da0 in UpdateTargetAssembliesInMonoManager()
+#33 0x00000102be21a4 in CallbackArray::Invoke()
+#34 0x00000103703618 in ProfilerCallbackInvoke<CallbackArray, &GlobalCallbacks::initialDomainReloadingComplete>::Invoke(char const*)
+#35 0x00000103702a24 in MonoManager::ReloadAssembly(AssemblyLoadReason)
+#36 0x00000104a2a244 in LoadDomainAndUserAssemblies(AssemblyLoadReason)
+#37 0x00000104c3cb28 in AssetImportWorkerClient::ReloadScriptingDomain()
+#38 0x00000104c57a78 in invocation function for block in AssetImportWorkerClient::HandleMessage(InitializeMessage const&)::$_11::operator()() const
+#39 0x0000018c528658 in _dispatch_client_callout
+#40 0x0000018c537db0 in _dispatch_async_and_wait_invoke
+#41 0x0000018c528658 in _dispatch_client_callout
+#42 0x0000018c536f68 in _dispatch_main_queue_drain
+#43 0x0000018c536b84 in _dispatch_main_queue_callback_4CF
+#44 0x0000018c800e60 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#45 0x0000018c7c0a4c in __CFRunLoopRun
+#46 0x0000018c7bfbc4 in CFRunLoopRunSpecific
+#47 0x00000197c2ff64 in RunCurrentEventLoopInMode
+#48 0x00000197c35d54 in ReceiveNextEventCommon
+#49 0x00000197c35eb8 in _BlockUntilNextEventMatchingListInModeWithFilter
+#50 0x000001902eba08 in _DPSNextEvent
+#51 0x00000190c2be0c in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#52 0x000001902deae0 in -[NSApplication run]
+#53 0x000001902b5364 in NSApplicationMain
+#54 0x0000010580d888 in EditorMain(int, char const**)
+#55 0x0000010580dbe4 in main
+#56 0x0000018c358274 in start

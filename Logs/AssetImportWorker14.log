@@ -1,0 +1,219 @@
+Unity Editor version:    6000.0.21f1 (e2bacb8dee3a)
+Branch:                  trunk
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.1 (Build 24B83)
+Darwin version:          24.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        36864 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+/Users/brettgill/Documents/unity-projects/unity-endless-runner
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+51406
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: /Users/brettgill/Documents/unity-projects/unity-endless-runner
+/Users/brettgill/Documents/unity-projects/unity-endless-runner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8346597440]  Target information:
+
+Player connection [8346597440]  * "[IP] 192.168.1.85 [Port] 0 [Flags] 2 [Guid] 2009759387 [EditorId] 2009759387 [Version] 1048832 [Id] OSXEditor(0,The-Lab.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8346597440] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8346597440] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.21f1 (e2bacb8dee3a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/brettgill/Documents/unity-projects/unity-endless-runner/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.21f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000705 seconds.
+- Loaded All Assemblies, in  0.200 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.253 seconds
+Domain Reload Profiling: 453ms
+	BeginReloadAssembly (38ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (38ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (91ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (228ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+* Assertion at metadata.c:1532, condition `col < mono_metadata_table_count (bitfield)' not met
+
+Obtained 70 stack frames.
+#0  0x0000018c6a2600 in __pthread_kill
+#1  0x0000018c5e7908 in abort
+#2  0x0000013c6993e8 in monoeg_g_printv
+#3  0x0000013c67eaa4 in mono_log_write_logfile
+#4  0x0000013c699600 in monoeg_g_logv_nofree
+#5  0x0000013c6996bc in monoeg_assertion_message
+#6  0x0000013c699700 in mono_assertion_message_unreachable
+#7  0x0000013c5f4c30 in mono_metadata_decode_row_col
+#8  0x0000013c5f9758 in table_locator
+#9  0x0000013c6938dc in mono_binary_search
+#10 0x0000013c5f9a38 in mono_metadata_custom_attrs_from_index
+#11 0x0000013c65bdd0 in mono_custom_attrs_from_index_checked
+#12 0x0000013c65c15c in mono_custom_attrs_from_class
+#13 0x00000101a59064 in AttributeScanner::Next()
+#14 0x00000101b1c5b4 in SerializableManagedRef::AssertKlassMeetsRequirements()
+#15 0x000001019efcac in ManagedMonoBehaviourRef::SetScriptCache(std::__1::shared_ptr<MonoScriptCache>&)
+#16 0x00000101b1d840 in SerializableManagedRef::SetupScriptingCache(Object*, ScriptingClassPtr, MonoScript*)
+#17 0x00000101b1dbf4 in SerializableManagedRef::RebuildMonoInstance(Object*, ScriptingClassPtr, ScriptingObjectPtr, MonoScript*)
+#18 0x00000101b34b88 in PersistentManager::ProduceObject(SerializedFile&, SerializedObjectIdentifier, int, ObjectCreationMode, PersistentManager::LockFlags)
+#19 0x00000101b346f0 in PersistentManager::CreateThreadActivationQueueEntry(SerializedFile&, SerializedObjectIdentifier, int, bool, PersistentManager::LockFlags)
+#20 0x00000101b34f7c in PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+#21 0x00000101b34248 in PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
+#22 0x00000101b31e24 in PersistentManager::ReadObject(int, AwakeFromLoadMode)
+#23 0x00000100f0ce0c in PPtr<MonoBehaviour>::operator MonoBehaviour*() const
+#24 0x000001010b6f20 in EditorUserBuildSettings_CUSTOM_GetActiveBuildProfile()
+#25 0x0000013ec80388 in  (wrapper managed-to-native) UnityEditor.EditorUserBuildSettings:GetActiveBuildProfile_Injected () [{0x14d453d90} + 0x58]  (0x13ec80330 0x13ec803ec) [0x12ff02a80 - Unity Child Domain]
+#26 0x0000013ec80080 in  UnityEditor.EditorUserBuildSettings:GetActiveBuildProfile () [{0x14c4158d8} + 0x18]  (0x13ec80068 0x13ec801b0) [0x12ff02a80 - Unity Child Domain]
+#27 0x0000013ec7ffd0 in  UnityEditor.EditorUserBuildSettings:get_activeBuildProfile () [{0x14c415888} + 0x10] [/Users/bokken/build/output/unity/unity/Editor/Mono/EditorUserBuildSettings.bindings.cs :: 1154u] (0x13ec7ffc0 0x13ec80014) [0x12ff02a80 - Unity Child Domain]
+#28 0x0000013ec7fce0 in  UnityEditor.Build.BuildDefines:GetBuildProfileScriptDefines () [{0x14c3f7850} + 0x10] [/Users/bokken/build/output/unity/unity/Modules/BuildPipeline/Editor/Managed/BuildDefines.cs :: 31u] (0x13ec7fcd0 0x13ec7fd28) [0x12ff02a80 - Unity Child Domain]
+#29 0x0000013ec7fed0 in  (wrapper runtime-invoke) <Module>:runtime_invoke_object (object,intptr,intptr,intptr) [{0x14d4540a0} + 0x68]  (0x13ec7fe68 0x13ec7ff6c) [0x12ff02a80 - Unity Child Domain]
+#30 0x0000013c48f74c in mono_jit_runtime_invoke
+#31 0x0000013c614d00 in do_runtime_invoke
+#32 0x0000013c614c40 in mono_runtime_invoke
+#33 0x00000101a7ef58 in scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+#34 0x00000101a55bcc in ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+#35 0x00000101a55ca0 in ScriptingArrayPtr ScriptingInvocation::Invoke<ScriptingArrayPtr>(ScriptingExceptionPtr*, bool)
+#36 0x00000101bae858 in Scripting::UnityEditor::Build::BuildDefinesProxy::GetBuildProfileScriptDefines(ScriptingExceptionPtr*)
+#37 0x000001029a7dd8 in invokeEditorBuildProfileScriptCompilationDefines(BuildTargetPlatform, int, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
+#38 0x000001029a78bc in GetScriptCompilationDefines(EditorScriptCompilationOptions, BuildTargetPlatform, int, CompatibilityLevel, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
+#39 0x000001029a7d2c in GetScriptCompilationDefines(EditorScriptCompilationOptions, BuildTargetPlatform, int, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
+#40 0x000001026a56ac in EditorUserBuildSettings::GetActiveScriptCompilationDefinesFromCompilationOptions(EditorScriptCompilationOptions, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
+#41 0x00000102d34a4c in IsPluginCompatible(core::basic_string<char, core::StringStorageDefault<char>>&, BuildTargetPlatform, EditorScriptCompilationOptions, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, IgnoredAssemblies&, PluginImporter*)
+#42 0x00000102d3422c in IsAssemblyCompatible(TargetAssemblyInfo const&, core::basic_string<char, core::StringStorageDefault<char>>&, BuildTargetPlatform, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, EditorScriptCompilationOptions, IgnoredAssemblies&)
+#43 0x00000102d35850 in FilterIncompatibleAndDuplicateAssemblies(core::vector<TargetAssemblyInfo, core::allocator<TargetAssemblyInfo, 0ul>> const&, BuildTargetPlatform, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, EditorScriptCompilationOptions, IgnoredAssemblies&)
+#44 0x00000102d36050 in CompatibleTargetAssemblies(EditorScriptCompilationOptions, core::vector<TargetAssemblyInfo, core::allocator<TargetAssemblyInfo, 0ul>> const&)
+#45 0x00000102d46da0 in UpdateTargetAssembliesInMonoManager()
+#46 0x00000100f021a4 in CallbackArray::Invoke()
+#47 0x00000101a23618 in ProfilerCallbackInvoke<CallbackArray, &GlobalCallbacks::initialDomainReloadingComplete>::Invoke(char const*)
+#48 0x00000101a22a24 in MonoManager::ReloadAssembly(AssemblyLoadReason)
+#49 0x00000102d4a244 in LoadDomainAndUserAssemblies(AssemblyLoadReason)
+#50 0x00000102f5cb28 in AssetImportWorkerClient::ReloadScriptingDomain()
+#51 0x00000102f77a78 in invocation function for block in AssetImportWorkerClient::HandleMessage(InitializeMessage const&)::$_11::operator()() const
+#52 0x0000018c528658 in _dispatch_client_callout
+#53 0x0000018c537db0 in _dispatch_async_and_wait_invoke
+#54 0x0000018c528658 in _dispatch_client_callout
+#55 0x0000018c536f68 in _dispatch_main_queue_drain
+#56 0x0000018c536b84 in _dispatch_main_queue_callback_4CF
+#57 0x0000018c800e60 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#58 0x0000018c7c0a4c in __CFRunLoopRun
+#59 0x0000018c7bfbc4 in CFRunLoopRunSpecific
+#60 0x00000197c2ff64 in RunCurrentEventLoopInMode
+#61 0x00000197c35d54 in ReceiveNextEventCommon
+#62 0x00000197c35eb8 in _BlockUntilNextEventMatchingListInModeWithFilter
+#63 0x000001902eba08 in _DPSNextEvent
+#64 0x00000190c2be0c in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#65 0x000001902deae0 in -[NSApplication run]
+#66 0x000001902b5364 in NSApplicationMain
+#67 0x00000103b2d888 in EditorMain(int, char const**)
+#68 0x00000103b2dbe4 in main
+#69 0x0000018c358274 in start
