@@ -1,17 +1,18 @@
-Unity Editor version:    6000.0.21f1 (e2bacb8dee3a)
-Branch:                  trunk
+Unity Editor version:    6000.3.10f1 (e35f0c77bd8e)
+Branch:                  6000.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 15.1 (Build 24B83)
-Darwin version:          24.1.0
-Architecture:            arm64
-Running under Rosetta:   NO
+macOS version:           Version 15.6.1 (Build 24G90)
+Darwin version:          24.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
 Available memory:        36864 MB
-Using pre-set license
-Pro License: YES
+Date:                    2026-03-04T07:23:03Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-brettgill" at "2026-03-04T07:23:03.443189Z"
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -22,16 +23,32 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51406
+49874
+-licensingIpc
+LicenseClient-brettgill
 -job-worker-count
 5
 -background-job-worker-count
 8
--asset-garbage-collectors
+-gc-helper-count
 1
+-name AssetImport
 Successfully changed project path to: /Users/brettgill/Documents/unity-projects/unity-endless-runner
 /Users/brettgill/Documents/unity-projects/unity-endless-runner
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -52,27 +69,15 @@ Successfully changed project path to: /Users/brettgill/Documents/unity-projects/
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-allocator-temp-initial-block-size-main=262144"
-    "memorysetup-allocator-temp-initial-block-size-worker=262144"
-    "memorysetup-temp-allocator-size-background-worker=32768"
-    "memorysetup-temp-allocator-size-job-worker=262144"
-    "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-    "memorysetup-temp-allocator-size-audio-worker=65536"
-    "memorysetup-temp-allocator-size-cloud-worker=32768"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8346597440]  Target information:
+Player connection [8723919360]  Target information:
 
-Player connection [8346597440]  * "[IP] 192.168.1.85 [Port] 0 [Flags] 2 [Guid] 294596433 [EditorId] 294596433 [Version] 1048832 [Id] OSXEditor(0,The-Lab.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8723919360]  * "[IP] 192.168.0.60 [Port] 0 [Flags] 2 [Guid] 2945804091 [EditorId] 2945804091 [Version] 1048832 [Id] OSXEditor(0,The-Lab.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8346597440] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8346597440] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8723919360] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8723919360] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -82,10 +87,10 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.0.21f1 (e2bacb8dee3a)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Resources/UnitySubsystems
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/brettgill/Documents/unity-projects/unity-endless-runner/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M3 Pro (high power)
@@ -93,123 +98,230 @@ Metal devices available: 1
 0: Apple M3 Pro (high power)
 Using device Apple M3 Pro (high power)
 Initializing Metal device caps: Apple M3 Pro
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56586
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56303
 Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              df4e7d5d01744dddadc31ac19b716c1b
+  Correlation Id:          72e834e2261c88850f94a9f3a7743df1
+  External correlation Id: 8869345774017813784
+  Machine Id:              //7ZFQxHxoC2DcWMjrUqitF3DnM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-brettgill" (connect: 0.00s, validation: 0.00s, handshake: 0.53s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-brettgill-notifications" at "2026-03-04T07:23:03.979912Z"
+[Licensing::Module] Licensing Background thread has ended after 0.54s
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.21f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002692 seconds.
-- Loaded All Assemblies, in  0.243 seconds
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000582 seconds.
+- Loaded All Assemblies, in  0.672 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.289 seconds
-Domain Reload Profiling: 532ms
-	BeginReloadAssembly (78ms)
+- Finished resetting the current domain, in  2.287 seconds
+Domain Reload Profiling: 2960ms
+	BeginReloadAssembly (222ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (103ms)
-		LoadAssemblies (79ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (146ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (216ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (101ms)
-			TypeCache.Refresh (101ms)
-				TypeCache.ScanAssembly (92ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (209ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (289ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2288ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (262ms)
+		SetupLoadedEditorAssemblies (2193ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (153ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (294ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (692ms)
+			ProcessInitializeOnLoadAttributes (942ms)
+			ProcessInitializeOnLoadMethodAttributes (253ms)
+			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-mono_os_mutex_lock: pthread_mutex_lock failed with "Invalid argument" (22)
-Obtained 67 stack frames.
-#0  0x0000018c6a2600 in __pthread_kill
-#1  0x0000018c5e7908 in abort
-#2  0x00000148e993e8 in monoeg_g_printv
-#3  0x00000148e7eaa4 in mono_log_write_logfile
-#4  0x00000148e99600 in monoeg_g_logv_nofree
-#5  0x00000148e99650 in monoeg_g_log
-#6  0x00000148de03e8 in mono_image_lock
-#7  0x00000148de35d4 in mono_get_method_checked
-#8  0x00000148e5bed8 in mono_custom_attrs_from_index_checked
-#9  0x00000148e5c15c in mono_custom_attrs_from_class
-#10 0x00000102f5d35c in AttributeScanner::Next()
-#11 0x000001030205b4 in SerializableManagedRef::AssertKlassMeetsRequirements()
-#12 0x00000102ef3cac in ManagedMonoBehaviourRef::SetScriptCache(std::__1::shared_ptr<MonoScriptCache>&)
-#13 0x00000103021840 in SerializableManagedRef::SetupScriptingCache(Object*, ScriptingClassPtr, MonoScript*)
-#14 0x00000103021bf4 in SerializableManagedRef::RebuildMonoInstance(Object*, ScriptingClassPtr, ScriptingObjectPtr, MonoScript*)
-#15 0x00000103038b88 in PersistentManager::ProduceObject(SerializedFile&, SerializedObjectIdentifier, int, ObjectCreationMode, PersistentManager::LockFlags)
-#16 0x000001030386f0 in PersistentManager::CreateThreadActivationQueueEntry(SerializedFile&, SerializedObjectIdentifier, int, bool, PersistentManager::LockFlags)
-#17 0x00000103038f7c in PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
-#18 0x00000103038248 in PersistentManager::ReadObjectThreaded(int, PersistentManager::LockFlags)
-#19 0x00000103035e24 in PersistentManager::ReadObject(int, AwakeFromLoadMode)
-#20 0x00000102410e0c in PPtr<MonoBehaviour>::operator MonoBehaviour*() const
-#21 0x000001025baf20 in EditorUserBuildSettings_CUSTOM_GetActiveBuildProfile()
-#22 0x0000014a2dc388 in  (wrapper managed-to-native) UnityEditor.EditorUserBuildSettings:GetActiveBuildProfile_Injected () [{0x13f639190} + 0x58]  (0x14a2dc330 0x14a2dc3ec) [0x12dc82a80 - Unity Child Domain]
-#23 0x0000014a2dc080 in  UnityEditor.EditorUserBuildSettings:GetActiveBuildProfile () [{0x14fac24d8} + 0x18]  (0x14a2dc068 0x14a2dc1b0) [0x12dc82a80 - Unity Child Domain]
-#24 0x0000014a2dbfd0 in  UnityEditor.EditorUserBuildSettings:get_activeBuildProfile () [{0x14fac2488} + 0x10] [/Users/bokken/build/output/unity/unity/Editor/Mono/EditorUserBuildSettings.bindings.cs :: 1154u] (0x14a2dbfc0 0x14a2dc014) [0x12dc82a80 - Unity Child Domain]
-#25 0x0000014a2dbce0 in  UnityEditor.Build.BuildDefines:GetBuildProfileScriptDefines () [{0x14facc250} + 0x10] [/Users/bokken/build/output/unity/unity/Modules/BuildPipeline/Editor/Managed/BuildDefines.cs :: 31u] (0x14a2dbcd0 0x14a2dbd28) [0x12dc82a80 - Unity Child Domain]
-#26 0x0000014a2dbed0 in  (wrapper runtime-invoke) <Module>:runtime_invoke_object (object,intptr,intptr,intptr) [{0x13f6394a0} + 0x68]  (0x14a2dbe68 0x14a2dbf6c) [0x12dc82a80 - Unity Child Domain]
-#27 0x00000148c8f74c in mono_jit_runtime_invoke
-#28 0x00000148e14d00 in do_runtime_invoke
-#29 0x00000148e14c40 in mono_runtime_invoke
-#30 0x00000102f82f58 in scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
-#31 0x00000102f59bcc in ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
-#32 0x00000102f59ca0 in ScriptingArrayPtr ScriptingInvocation::Invoke<ScriptingArrayPtr>(ScriptingExceptionPtr*, bool)
-#33 0x000001030b2858 in Scripting::UnityEditor::Build::BuildDefinesProxy::GetBuildProfileScriptDefines(ScriptingExceptionPtr*)
-#34 0x00000103eabdd8 in invokeEditorBuildProfileScriptCompilationDefines(BuildTargetPlatform, int, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
-#35 0x00000103eab8bc in GetScriptCompilationDefines(EditorScriptCompilationOptions, BuildTargetPlatform, int, CompatibilityLevel, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
-#36 0x00000103eabd2c in GetScriptCompilationDefines(EditorScriptCompilationOptions, BuildTargetPlatform, int, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
-#37 0x00000103ba96ac in EditorUserBuildSettings::GetActiveScriptCompilationDefinesFromCompilationOptions(EditorScriptCompilationOptions, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>>&)
-#38 0x00000104238a4c in IsPluginCompatible(core::basic_string<char, core::StringStorageDefault<char>>&, BuildTargetPlatform, EditorScriptCompilationOptions, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, IgnoredAssemblies&, PluginImporter*)
-#39 0x0000010423822c in IsAssemblyCompatible(TargetAssemblyInfo const&, core::basic_string<char, core::StringStorageDefault<char>>&, BuildTargetPlatform, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, EditorScriptCompilationOptions, IgnoredAssemblies&)
-#40 0x00000104239850 in FilterIncompatibleAndDuplicateAssemblies(core::vector<TargetAssemblyInfo, core::allocator<TargetAssemblyInfo, 0ul>> const&, BuildTargetPlatform, core::vector<core::basic_string<char, core::StringStorageDefault<char>>, core::allocator<core::basic_string<char, core::StringStorageDefault<char>>, 0ul>> const&, EditorScriptCompilationOptions, IgnoredAssemblies&)
-#41 0x0000010423a050 in CompatibleTargetAssemblies(EditorScriptCompilationOptions, core::vector<TargetAssemblyInfo, core::allocator<TargetAssemblyInfo, 0ul>> const&)
-#42 0x0000010424ada0 in UpdateTargetAssembliesInMonoManager()
-#43 0x000001024061a4 in CallbackArray::Invoke()
-#44 0x00000102f27618 in ProfilerCallbackInvoke<CallbackArray, &GlobalCallbacks::initialDomainReloadingComplete>::Invoke(char const*)
-#45 0x00000102f26a24 in MonoManager::ReloadAssembly(AssemblyLoadReason)
-#46 0x0000010424e244 in LoadDomainAndUserAssemblies(AssemblyLoadReason)
-#47 0x00000104460b28 in AssetImportWorkerClient::ReloadScriptingDomain()
-#48 0x0000010447ba78 in invocation function for block in AssetImportWorkerClient::HandleMessage(InitializeMessage const&)::$_11::operator()() const
-#49 0x0000018c528658 in _dispatch_client_callout
-#50 0x0000018c537db0 in _dispatch_async_and_wait_invoke
-#51 0x0000018c528658 in _dispatch_client_callout
-#52 0x0000018c536f68 in _dispatch_main_queue_drain
-#53 0x0000018c536b84 in _dispatch_main_queue_callback_4CF
-#54 0x0000018c800e60 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
-#55 0x0000018c7c0a4c in __CFRunLoopRun
-#56 0x0000018c7bfbc4 in CFRunLoopRunSpecific
-#57 0x00000197c2ff64 in RunCurrentEventLoopInMode
-#58 0x00000197c35d54 in ReceiveNextEventCommon
-#59 0x00000197c35eb8 in _BlockUntilNextEventMatchingListInModeWithFilter
-#60 0x000001902eba08 in _DPSNextEvent
-#61 0x00000190c2be0c in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
-#62 0x000001902deae0 in -[NSApplication run]
-#63 0x000001902b5364 in NSApplicationMain
-#64 0x00000105031888 in EditorMain(int, char const**)
-#65 0x00000105031be4 in main
-#66 0x0000018c358274 in start
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-JPN6-8ZNP-QMKX-E5H8-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 3574233227685-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.294 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.012 seconds
+Domain Reload Profiling: 4307ms
+	BeginReloadAssembly (381ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (51ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (127ms)
+	LoadAllAssembliesAndSetupDomain (719ms)
+		LoadAssemblies (578ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (170ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (3014ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2730ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (779ms)
+			ProcessInitializeOnLoadAttributes (1727ms)
+			ProcessInitializeOnLoadMethodAttributes (206ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5058 unused Assets / (1.2 MB). Loaded Objects now: 5680.
+Memory consumption went from 111.7 MB to 110.5 MB.
+Total: 7.764959 ms (FindLiveObjects: 0.399459 ms CreateObjectMapping: 0.199083 ms MarkObjects: 6.166333 ms  DeleteObjects: 0.999458 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7385.480469 seconds.
+  path: Assets/Scripts/UIManagerScript.cs
+  artifactKey: Guid(e2e7002d508a04008807511a3ac318c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/UIManagerScript.cs using Guid(e2e7002d508a04008807511a3ac318c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '178187e141a48d9b779a612b985891fc') in 0.27529375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Scenes/Game Start Scene.unity
+  artifactKey: Guid(feef2978a77d94169acabf6d03499327) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Game Start Scene.unity using Guid(feef2978a77d94169acabf6d03499327) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd3861a8ba0fe3a7af3fe289fc455c6e') in 0.018494708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Components/MainMenuButton.prefab
+  artifactKey: Guid(d94a7b92fc377484080f7f3991074b66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Components/MainMenuButton.prefab using Guid(d94a7b92fc377484080f7f3991074b66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e99c7d410ae019725a66fe38e2a154e') in 0.244164541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 372688.530220 seconds.
+  path: Assets/Scenes/Game Start Scene.unity
+  artifactKey: Guid(feef2978a77d94169acabf6d03499327) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Game Start Scene.unity using Guid(feef2978a77d94169acabf6d03499327) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ae025b3474cef1e9e61b852e85cb620') in 0.036418667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-JPN6-8ZNP-QMKX-E5H8-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 3574233227685-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.580 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.176 seconds
+Domain Reload Profiling: 4760ms
+	BeginReloadAssembly (623ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (106ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (168ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (802ms)
+		LoadAssemblies (781ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (229ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3178ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2824ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (846ms)
+			ProcessInitializeOnLoadAttributes (1753ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5057 unused Assets / (1.2 MB). Loaded Objects now: 5686.
+Memory consumption went from 120.0 MB to 118.8 MB.
+Total: 7.750291 ms (FindLiveObjects: 0.451000 ms CreateObjectMapping: 0.198917 ms MarkObjects: 6.224291 ms  DeleteObjects: 0.875625 ms)
+
+Prepare: number of updated asset objects reloaded= 0

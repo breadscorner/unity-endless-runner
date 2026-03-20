@@ -6,16 +6,13 @@ public class HighScoreManager : MonoBehaviour
 
     private void Awake()
     {
-        // Ensure only one instance of HighScoreManager exists
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
+            return;
         }
+
+        Instance = this;
     }
 
     /// <summary>
@@ -39,7 +36,6 @@ public class HighScoreManager : MonoBehaviour
     /// <summary>
     /// Save a new high score and player name.
     /// </summary>
-    
     /// <param name="score">The new high score.</param>
     /// <param name="playerName">The name of the player.</param>
 

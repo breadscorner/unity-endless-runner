@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class UIManagerScript : MonoBehaviour
 {
-    [SerializeField] private GameObject overlayPanel;
-    [SerializeField] private GameObject settingsMenu;
-    [SerializeField] private GameObject gameStartScreen;
+    [SerializeField]
+    private GameObject overlayPanel;
 
-    private void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
+    [SerializeField]
+    private GameObject settingsMenu;
+
+    [SerializeField]
+    private GameObject gameStartScreen;
 
     public void OpenSettingsMenu()
     {
